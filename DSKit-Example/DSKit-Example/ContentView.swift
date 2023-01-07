@@ -16,12 +16,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack() {
-                Button(action: {
-                    
-                }) {
-                    Text("Testing")
-                }
-                .standard()
+                DSKitAsyncImage(url: "https://www.shutterstock.com/image-vector/cosmic-background-alien-planet-deserted-260nw-1968007051.jpg", contentMode: .fit)
             }
             .screenContainer()
         }

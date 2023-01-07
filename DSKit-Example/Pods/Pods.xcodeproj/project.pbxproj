@@ -13,6 +13,7 @@
 		67A3ED2E1BEFACEB7C4E078C068F2075 /* Pods-DSKit-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34252A2A52CED379311F93E15ABA0604 /* Pods-DSKit-Example-dummy.m */; };
 		8C6CCECA4FEBA893E3F896AF256F4D31 /* DSKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6651461C1D2310CF63E640C81E7F061D /* DSKit.swift */; };
 		AA17DE4AA9BE39516F5BD1C1E4C691BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B905ADFB29694BD600C63BE2 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = B905ADFA29694BD600C63BE2 /* Images.swift */; };
 		B96A4920293CF4E800CB1EB0 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A491F293CF4E800CB1EB0 /* Buttons.swift */; };
 		B9B0B20629612F6D00916404 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B0B20529612F6D00916404 /* Colors.swift */; };
 		B9C3EB562942C932000344DA /* Dimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C3EB552942C932000344DA /* Dimensions.swift */; };
@@ -48,6 +49,7 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A5A3EC17773F3FA3DEE5A14A2A868237 /* DSKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DSKit-prefix.pch"; sourceTree = "<group>"; };
 		A78298E3F3825346C93CB742868C8D93 /* Pods-DSKit-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DSKit-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B905ADFA29694BD600C63BE2 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Images.swift; path = DSKit/Classes/Images.swift; sourceTree = "<group>"; };
 		B96A491F293CF4E800CB1EB0 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Buttons.swift; path = DSKit/Classes/components/Buttons.swift; sourceTree = "<group>"; };
 		B9B0B20529612F6D00916404 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = DSKit/Classes/theme/Colors.swift; sourceTree = "<group>"; };
 		B9C3EB552942C932000344DA /* Dimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Dimensions.swift; path = DSKit/Classes/sizing/Dimensions.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				B9C3EB592942CF37000344DA /* Containers.swift */,
 				B9C3EB5B29433501000344DA /* General.swift */,
 				B9B0B20529612F6D00916404 /* Colors.swift */,
+				B905ADFA29694BD600C63BE2 /* Images.swift */,
 			);
 			name = DSKit;
 			path = ../..;
@@ -307,6 +310,7 @@
 				B9C3EB562942C932000344DA /* Dimensions.swift in Sources */,
 				B9B0B20629612F6D00916404 /* Colors.swift in Sources */,
 				B96A4920293CF4E800CB1EB0 /* Buttons.swift in Sources */,
+				B905ADFB29694BD600C63BE2 /* Images.swift in Sources */,
 				8C6CCECA4FEBA893E3F896AF256F4D31 /* DSKit.swift in Sources */,
 				3CD8A6FC10B579BD749B6E28A6067EB7 /* DSKit-dummy.m in Sources */,
 			);
