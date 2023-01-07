@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'DSKit'
+  s.name             = 'UIBox'
   s.version          = '0.1.0'
   s.summary          = 'A design kit developed to be used with SwiftUI'
 
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nkshah2' => 'nemishah1212@gmail.com' }
   s.source           = { :git => 'https://github.com/nkshah2/DSKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+   s.social_media_url = 'https://twitter.com/NemiShah3'
 
   s.ios.deployment_target = '14.0'
 

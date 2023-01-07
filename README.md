@@ -1,9 +1,9 @@
-# DSKit
+# UIBox (Work In Progress)
 
-[![CI Status](https://img.shields.io/travis/nkshah2/DSKit.svg?style=flat)](https://travis-ci.org/nkshah2/DSKit)
-[![Version](https://img.shields.io/cocoapods/v/DSKit.svg?style=flat)](https://cocoapods.org/pods/DSKit)
-[![License](https://img.shields.io/cocoapods/l/DSKit.svg?style=flat)](https://cocoapods.org/pods/DSKit)
-[![Platform](https://img.shields.io/cocoapods/p/DSKit.svg?style=flat)](https://cocoapods.org/pods/DSKit)
+<!-- [![CI Status](https://img.shields.io/travis/nkshah2/UIBox.svg?style=flat)](https://travis-ci.org/nkshah2/UIBox)
+[![Version](https://img.shields.io/cocoapods/v/UIBox.svg?style=flat)](https://cocoapods.org/pods/UIBox)
+[![License](https://img.shields.io/cocoapods/l/UIBox.svg?style=flat)](https://cocoapods.org/pods/UIBox)
+[![Platform](https://img.shields.io/cocoapods/p/UIBox.svg?style=flat)](https://cocoapods.org/pods/UIBox)
 
 ## Example
 
@@ -26,4 +26,4 @@ nkshah2, nemishah1212@gmail.com
 
 ## License
 
-DSKit is available under the MIT license. See the LICENSE file for more info.
+DSKit is available under the MIT license. See the LICENSE file for more info. -->
