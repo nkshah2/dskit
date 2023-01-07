@@ -1,0 +1,16 @@
+PODS:
+  - DSKit (0.1.0)
+
+DEPENDENCIES:
+  - DSKit (from `../`)
+
+EXTERNAL SOURCES:
+  DSKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DSKit: 5484aa7f406a770f25eb9e8de7002f21296858f5
+
+PODFILE CHECKSUM: 49776f8d65ab54cd09b613e3ebf94f572f0ccdca
+
+COCOAPODS: 1.11.3

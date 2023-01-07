@@ -1,0 +1,22 @@
+{
+  "name": "DSKit",
+  "version": "0.1.0",
+  "summary": "A design kit developed to be used with SwiftUI",
+  "description": "\"DSKit is a design system for SwiftUI. It is designed to make building your app much easier with built in ViewModifiers that let you apply consitent styling to all your Views without needing to manually set modifiers to them. Provide custom values for spacing and DSKit handles the rest for you! Quick, easy and beatuiful, build apps like never before\"",
+  "homepage": "https://github.com/nkshah2/DSKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nkshah2": "nemishah1212@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nkshah2/DSKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": "DSKit/Classes/**/*"
+}
