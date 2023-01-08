@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 "DSKit is a design system for SwiftUI. It is designed to make building your app much easier with built in ViewModifiers that let you apply consitent styling to all your Views without needing to manually set modifiers to them. Provide custom values for spacing and DSKit handles the rest for you! Quick, easy and beatuiful, build apps like never before"
                        DESC
 
-  s.homepage         = 'https://github.com/nkshah2/DSKit'
+  s.homepage         = 'https://github.com/nkshah2/UIBox'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nkshah2' => 'nemishah1212@gmail.com' }
-  s.source           = { :git => 'https://github.com/nkshah2/DSKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/nkshah2/UIBox.git', :tag => s.version.to_s }
    s.social_media_url = 'https://twitter.com/NemiShah3'
 
   s.ios.deployment_target = '14.0'

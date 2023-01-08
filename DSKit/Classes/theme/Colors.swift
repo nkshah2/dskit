@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public struct AppTheme {
+public struct UIBoxAppTheme {
     let accentColor: Color
     let textOnAccentColor: Color
     
@@ -17,4 +17,4 @@ public struct AppTheme {
     }
 }
 
-public let _defaultAppTheme: AppTheme = AppTheme(accentColor: Color.blue, textOnAccentColor: Color.white)
+public let _defaultAppTheme: UIBoxAppTheme = UIBoxAppTheme(accentColor: Color.blue, textOnAccentColor: Color.white)

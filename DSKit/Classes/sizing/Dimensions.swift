@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public struct FullWidth: ViewModifier {
+public struct UIBoxFullWidth: ViewModifier {
     public init() {}
     
     public func body(content: Content) -> some View {
@@ -16,7 +16,7 @@ public struct FullWidth: ViewModifier {
     }
 }
 
-public struct FullHeight: ViewModifier {
+public struct UIBoxFullHeight: ViewModifier {
     public init() {}
     
     public func body(content: Content) -> some View {

@@ -27,7 +27,7 @@ internal class ImageLoaderService: ObservableObject {
     
 }
 
-public struct DSKitAsyncImage: View {
+public struct UIBoxAsyncImage: View {
     @ObservedObject var imageLoader = ImageLoaderService()
     @State var image: UIImage = UIImage()
     

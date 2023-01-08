@@ -10,13 +10,13 @@ import DSKit
 
 struct ContentView: View {
     init() {
-        DSKit.initialise()
+        UIBox.initialise()
     }
     
     var body: some View {
         NavigationView {
             VStack() {
-                DSKitAsyncImage(url: "https://www.shutterstock.com/image-vector/cosmic-background-alien-planet-deserted-260nw-1968007051.jpg", contentMode: .fit)
+                UIBoxAsyncImage(url: "https://www.shutterstock.com/image-vector/cosmic-background-alien-planet-deserted-260nw-1968007051.jpg", contentMode: .fit)
             }
             .screenContainer()
         }

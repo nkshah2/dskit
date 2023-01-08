@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-public struct DSKitScreenStyle {
+public struct UIBoxScreenStyle {
     let verticalPadding: CGFloat
     let horizontalPadding: CGFloat
     let backgroundColor: Color
     
     public init(
-        verticalPadding: CGFloat = ScreenContainer.DEFAULT_PADDING,
-        horizontalPadding: CGFloat = ScreenContainer.DEFAULT_PADDING,
-        backgroundColor: Color = ScreenContainer.DEFAULT_BACKGROUND
+        verticalPadding: CGFloat = UIBoxScreenContainer.DEFAULT_PADDING,
+        horizontalPadding: CGFloat = UIBoxScreenContainer.DEFAULT_PADDING,
+        backgroundColor: Color = UIBoxScreenContainer.DEFAULT_BACKGROUND
     ) {
         self.verticalPadding = verticalPadding
         self.horizontalPadding = horizontalPadding
@@ -23,23 +23,23 @@ public struct DSKitScreenStyle {
     }
 }
 
-public let _defaultScreenStyle = DSKitScreenStyle(
-    verticalPadding: ScreenContainer.DEFAULT_PADDING,
-    horizontalPadding: ScreenContainer.DEFAULT_PADDING,
-    backgroundColor: ScreenContainer.DEFAULT_BACKGROUND
+public let _defaultScreenStyle = UIBoxScreenStyle(
+    verticalPadding: UIBoxScreenContainer.DEFAULT_PADDING,
+    horizontalPadding: UIBoxScreenContainer.DEFAULT_PADDING,
+    backgroundColor: UIBoxScreenContainer.DEFAULT_BACKGROUND
 )
 
-public struct DSKitContainerConfig {
-    let screenStyle: DSKitScreenStyle
+public struct UIBoxContainerConfig {
+    let screenStyle: UIBoxScreenStyle
     
-    public init(screenStyle: DSKitScreenStyle = _defaultScreenStyle) {
+    public init(screenStyle: UIBoxScreenStyle = _defaultScreenStyle) {
         self.screenStyle = screenStyle
     }
 }
 
-public let _defaultContainerStyle = DSKitContainerConfig()
+public let _defaultContainerStyle = UIBoxContainerConfig()
 
-public struct ScreenContainer: ViewModifier {
+public struct UIBoxScreenContainer: ViewModifier {
     public static let DEFAULT_PADDING: CGFloat = 12
     public static let DEFAULT_BACKGROUND = Color.white
     
@@ -48,9 +48,9 @@ public struct ScreenContainer: ViewModifier {
     let backgroundColor: Color
     
     public init(
-        horizontalPadding: CGFloat = ScreenContainer.DEFAULT_PADDING,
-        verticalPadding: CGFloat = ScreenContainer.DEFAULT_PADDING,
-        backgroundColor: Color = ScreenContainer.DEFAULT_BACKGROUND
+        horizontalPadding: CGFloat = UIBoxScreenContainer.DEFAULT_PADDING,
+        verticalPadding: CGFloat = UIBoxScreenContainer.DEFAULT_PADDING,
+        backgroundColor: Color = UIBoxScreenContainer.DEFAULT_BACKGROUND
     ) {
         self.horizontalPadding = horizontalPadding
         self.verticalPadding = verticalPadding
@@ -58,11 +58,11 @@ public struct ScreenContainer: ViewModifier {
     }
     
     public func body(content: Content) -> some View {
-        let config = DSKit.getInstance().getConfig().containerStyle.screenStyle
+        let config = UIBox.getInstance().getConfig().containerStyle.screenStyle
         
         return content
-            .modifier(FullWidth())
-            .modifier(FullHeight())
+            .modifier(UIBoxFullWidth())
+            .modifier(UIBoxFullHeight())
             .padding(.vertical, config.verticalPadding)
             .padding(.horizontal, config.horizontalPadding)
             .background(config.backgroundColor.ignoresSafeArea(.all))

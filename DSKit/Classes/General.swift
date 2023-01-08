@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-public struct CommonCornerRadius: ViewModifier {
+public struct UIBoxCommonCornerRadius: ViewModifier {
     public static let DEFAULT_RADIUS: CGFloat = 12
     
     private let cornerRadius: CGFloat
     
-    public init(cornerRadius: CGFloat = CommonCornerRadius.DEFAULT_RADIUS) {
+    public init(cornerRadius: CGFloat = UIBoxCommonCornerRadius.DEFAULT_RADIUS) {
         self.cornerRadius = cornerRadius
     }
     
     public func body(content: Content) -> some View {
         return content
-            .cornerRadius(DSKit.getInstance().getConfig().cornerRadius)
+            .cornerRadius(UIBox.getInstance().getConfig().cornerRadius)
     }
 }

@@ -10,19 +10,19 @@ import DSKit
 
 extension View {
     func fullWidth() -> some View {
-        modifier(FullWidth())
+        modifier(UIBoxFullWidth())
     }
     
     func fullHeight() -> some View {
-        modifier(FullHeight())
+        modifier(UIBoxFullHeight())
     }
     
     func screenContainer() -> some View {
-        modifier(ScreenContainer())
+        modifier(UIBoxScreenContainer())
     }
     
     func curvedCorners() -> some View {
-        modifier(CommonCornerRadius())
+        modifier(UIBoxCommonCornerRadius())
     }
 }
 
